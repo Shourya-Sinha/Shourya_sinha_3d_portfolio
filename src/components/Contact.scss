@@ -1,0 +1,50 @@
+// @import "../global.scss";
+@use "../global" as *;
+.contact{
+  flex-direction: row;
+  @include mobile2
+    {
+        flex-direction: column;
+    }
+  .earth{
+    @include mobile2
+    {
+        flex: none;
+        align-content: center;
+    }
+  }
+
+  .form1{
+
+    @include mobile3
+    {
+        zoom: 0.8;
+    }
+  }
+  .contact__options {
+
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+  }
+  
+  .contact__option {
+    display: flex;
+    flex-direction: row;
+    padding: 0.6rem;
+    border-radius: 1.2rem;
+    text-align: center;
+    align-items: center;
+    border: 1px solid white;
+    gap: 0.8rem;
+  }
+  
+  .contact__option:hover {
+    text-decoration: underline;
+  }
+
+  button
+  {
+    border: 2px solid #49a891;
+  }
+}
