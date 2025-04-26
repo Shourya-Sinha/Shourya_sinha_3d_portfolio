@@ -31,5 +31,5 @@ export default defineConfig({
   build: {
     chunkSizeWarningLimit: 100000000
   },
-  base: "/shourya-sinha/",
+  base: "/Shourya_sinha_3d_portfolio/",
 });
