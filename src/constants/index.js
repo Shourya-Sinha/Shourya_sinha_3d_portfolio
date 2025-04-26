@@ -373,8 +373,8 @@ export const cProject = [
       { name: "Node.js & Express.js", color: "pink-text-gradient" },
     ],
     image: "https://ik.imagekit.io/p66ljstle/Portfolio%20images/bookish.webp?updatedAt=1745653006469",
-    source_link: "https://github.com/shinchancode/Computer-Graphics",
-    source_code_link: "https://github.com/shinchancode/Computer-Graphics",
+    source_link: "https://github.com/Shourya-Sinha/bookish-palace",
+    source_code_link: "https://github.com/Shourya-Sinha/bookish-palace",
   },
 ];
 
@@ -578,19 +578,6 @@ const experiences = [
     ],
     link: "#",
   }
-  // {
-  //   title: "Hacktoberfest",
-  //   company_name: "GitHub",
-  //   icon: hf,
-  //   iconBg: "#E6DEDD",
-  //   date: "Oct (2020 - 2022)",
-  //   link: "",
-  //   points: [
-  //     "Hacktoberfest is an annual worldwide event held during the month of October. The event encourages open source developers to contribute to repositories through pull requests (PR).",
-  //     "GitHub hosts many open source repositories that contribute to this event.",
-  //   ],
-  //   link: "https://dev.to/shinchancode",
-  // },
 ];
 
 const educations = [
